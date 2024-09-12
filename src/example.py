@@ -9,7 +9,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option("display.max_rows", None)
 
 
-
+#martin
 def fn_data_analysis(data_df, logger):
     logger.info(f"Dataframe shape: {data_df.shape}")
     logger.info(f"Dataframe columns: {data_df.columns}")
