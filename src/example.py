@@ -9,7 +9,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option("display.max_rows", None)
 
 
-#martin
+
 def fn_data_analysis(data_df, logger):
     logger.info(f"Dataframe shape: {data_df.shape}")
     logger.info(f"Dataframe columns: {data_df.columns}")
@@ -19,8 +19,16 @@ def fn_data_analysis(data_df, logger):
     logger.info(f"Dataframe tail: {data_df.tail()}")
     logger.info(f"Dataframe null values: {data_df.isnull().sum()}")
     logger.info(f"Dataframe duplicated values: {data_df.duplicated().sum()}")
+    data_df
 
+    print('this is the shape')
     print(data_df.shape)
+
+    print('this are teh columns')
+    print(data_df.columns)
+
+
+    print('this is the genral info: ', data_df.info())
 
 def fn_fetch_data(logger):
     csv_file_path = '../local_data/titanic.csv'
