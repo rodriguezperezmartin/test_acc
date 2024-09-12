@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/connect_to_dbs.iml" filepath="$PROJECT_DIR$/.idea/connect_to_dbs.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/week4_wragling.iml" filepath="$PROJECT_DIR$/.idea/week4_wragling.iml" />
+>>>>>>> bb778c2 (idea)
     </modules>
   </component>
 </project>
