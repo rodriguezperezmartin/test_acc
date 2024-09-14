@@ -58,6 +58,9 @@ def main():
     ##Data Analysis / Discovery##
     fn_data_analysis(data_df, logger)
 
+    sns.countplot(x='Survived', hue='Sex', data=data_df, palette='RdBu_r')
+    plt.show()
+
     print('project end')
 
 
