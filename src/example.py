@@ -2,8 +2,8 @@ import logging
 import os
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+## import matplotlib.pyplot as plt
+## import seaborn as sns
 
 pd.set_option('display.max_columns', None)
 pd.set_option("display.max_rows", None)
@@ -19,6 +19,9 @@ def fn_data_analysis(data_df, logger):
     logger.info(f"Dataframe tail: {data_df.tail()}")
     logger.info(f"Dataframe null values: {data_df.isnull().sum()}")
     logger.info(f"Dataframe duplicated values: {data_df.duplicated().sum()}")
+    logger.info(f"Dataframe max: {data_df.max}")
+    logger.info(f"Dataframe min: {data_df.min}")
+    ## Added max and min to logger
 
     print(data_df.shape)
 
