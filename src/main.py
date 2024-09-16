@@ -1,5 +1,6 @@
 from connect_db import fn_connect_to_db
 
+
 ## correct way to import function from another file
 def fn_fetch_data():
     print('connecting to db')
