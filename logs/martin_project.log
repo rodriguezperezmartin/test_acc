@@ -432,3 +432,4 @@ Cabin          687
 Embarked         2
 dtype: int64
 2024-09-12 16:25:20,266 - root - INFO - Dataframe duplicated values: 0
+2024-09-17 15:24:43,183 - root - INFO - Dataframe shape: (891, 12)

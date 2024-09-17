@@ -31,7 +31,7 @@ def fn_data_analysis(data_df, logger):
     print('this is the genral info: ', data_df.info())
 
 def fn_fetch_data(logger):
-    csv_file_path = '../local_data/titanic.csv'
+    csv_file_path = './local_data/titanic.csv'
     data_df = pd.read_csv(csv_file_path)  # Read the data from the CSV file into tabular format
     logger.info(f"Dataframe shape: {data_df.shape}")
     print(data_df.head())
