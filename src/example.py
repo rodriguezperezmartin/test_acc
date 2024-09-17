@@ -46,12 +46,12 @@ def main():
 
 
     # Create a file handler
-    file_handler = logging.FileHandler('../logs/martin_project.log')
-    logger.addHandler(file_handler)
+#    file_handler = logging.FileHandler('../logs/martin_project.log')
+#    logger.addHandler(file_handler)
 
     # Create a formatter and set it for the handler
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    file_handler.setFormatter(formatter)    # Set the formatter for the handler
+#    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+#    file_handler.setFormatter(formatter)    # Set the formatter for the handler
 
     ##read in dataset##
     data_df = fn_fetch_data(logger)
