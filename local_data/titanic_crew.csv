@@ -1,0 +1,7 @@
+Worker_ID, Survived, Name, Sex, Age, Position
+
+1A,0," Brantley, Mr. Mann Hartforth", male, 45, Stoker
+1B,0, "Heisenburger, Mr. Malter Lite", male, 34, Chef
+1C,0, "Lee, Mr. Yang Huncho", male, 56, Deck Officer
+1D,1, "Eduardo, Mr. Granados Cuevas, male, 23, Stoker
+1E,1, "Davy, Mr. Jones", male, 54, Captain
